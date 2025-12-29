@@ -3,10 +3,11 @@
 
 <br>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=111111&background=FFFFFF00&width=520&lines=Hi+there%2C+Kamusta%2C+I'm+RaeRae" />
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00FF41&background=00000000&width=520&lines=Hi+there%2C+Kamusta%2C+I'm+RaeRae" />
 </p>
 
+<br>
 
 <p align="center">
   <img src="./assets/terminal.svg" alt="Terminal Easter Egg" />
