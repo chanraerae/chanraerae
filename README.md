@@ -4,7 +4,7 @@ as in Rai in Rainbow 🌈
 “Not a threat. Just difficult to ignore.”
 
 <p align="left">
-  <img src="https://readme-hi-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=E6EDF3&background=0D111700&width=500&lines=Hi+there%2C+Kamusta%2C+I'm+RaeRae" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=111111&background=FFFFFF00&width=520&lines=Hi+there%2C+Kamusta%2C+I'm+RaeRae" />
 </p>
 
 <p align="center">
