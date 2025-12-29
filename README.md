@@ -4,7 +4,7 @@ as in Rai in Rainbow 🌈
 “Not a threat. Just difficult to ignore.”
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0a0f14&height=160&section=header&text=Hi,%20I'm%20Rae,%20Kamusta?%20🇵🇭&fontSize=48&fontColor=9aa4ad&animation=fadeIn&desc=Security%20·%20Systems%20·%20Human%20Reality&descAlignY=70" />
+  <img src="./assets/typing.svg" alt="Hi there, Kamusta, I'm RaeRae" />
 </p>
 
 
