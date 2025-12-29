@@ -4,7 +4,7 @@ as in Rai in Rainbow 🌈
 “Not a threat. Just difficult to ignore.”
 
 <p align="center">
-  <img src="./assets/typing.svg" alt="Hi there, Kamusta, I'm RaeRae" />
+  <img src="./assets/hi.svg" alt="Hi there, Kamusta, I'm RaeRae" />
 </p>
 
 
