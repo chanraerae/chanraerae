@@ -1,48 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80">
-  <rect width="100%" height="100%" fill="#ffffff"/>
-
+  <rect width="100%" height="100%" fill="white"/>
   <text x="20" y="52"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
+        font-family="JetBrains Mono, monospace"
         font-size="28"
         fill="#111">
 
-    <tspan>
-      <animate
-        attributeName="textContent"
-        dur="4s"
-        repeatCount="1"
-        values="
-        H;
-        Hi;
-        Hi ;
-        Hi t;
-        Hi th;
-        Hi the;
-        Hi ther;
-        Hi there;
-        Hi there,;
-        Hi there, ;
-        Hi there, K;
-        Hi there, Ka;
-        Hi there, Kam;
-        Hi there, Kamu;
-        Hi there, Kamus;
-        Hi there, Kamusta;
-        Hi there, Kamusta,;
-        Hi there, Kamusta, ;
-        Hi there, Kamusta, I;
-        Hi there, Kamusta, I';
-        Hi there, Kamusta, I'm;
-        Hi there, Kamusta, I'm ;
-        Hi there, Kamusta, I'm R;
-        Hi there, Kamusta, I'm Ra;
-        Hi there, Kamusta, I'm Rae;
-        Hi there, Kamusta, I'm RaeR;
-        Hi there, Kamusta, I'm RaeRa;
-        Hi there, Kamusta, I'm RaeRae
-        "
-      />
-    </tspan>
-
+    <animate
+      attributeName="textContent"
+      dur="4s"
+      repeatCount="1"
+      values="
+      H;
+      Hi;
+      Hi ;
+      Hi t;
+      Hi th;
+      Hi the;
+      Hi ther;
+      Hi there;
+      Hi there,;
+      Hi there, ;
+      Hi there, K;
+      Hi there, Ka;
+      Hi there, Kam;
+      Hi there, Kamu;
+      Hi there, Kamus;
+      Hi there, Kamusta;
+      Hi there, Kamusta,;
+      Hi there, Kamusta, ;
+      Hi there, Kamusta, I;
+      Hi there, Kamusta, I';
+      Hi there, Kamusta, I'm;
+      Hi there, Kamusta, I'm ;
+      Hi there, Kamusta, I'm R;
+      Hi there, Kamusta, I'm Ra;
+      Hi there, Kamusta, I'm Rae;
+      Hi there, Kamusta, I'm RaeR;
+      Hi there, Kamusta, I'm RaeRa;
+      Hi there, Kamusta, I'm RaeRae
+      "
+    />
   </text>
 </svg>
