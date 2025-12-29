@@ -3,9 +3,10 @@
 
 <br>
 
-<p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00FF41&background=00000000&width=520&lines=Hi+there%2C+Kamusta%2C+I'm+RaeRae" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1200&color=7C6EFF&background=FFFFFF00&width=520&lines=Hi+there%2C+Kamusta%2C+I'm+RaeRae" />
 </p>
+
 
 <br>
 
