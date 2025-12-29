@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img src="./assets/terminal.svg" alt="Terminal Easter Egg" />
+  <img src="./assets/terminal.svg?v=2" alt="Terminal Easter Egg" />
 </p>
 
 
