@@ -22,7 +22,8 @@
 <br>
 
 ```
-curl.exe --resolve curlrae.perinion-chan.com:443:172.67.166.71 https://curlrae.perinion-chan.com/whoami
+# Tip: not everything is meant to be fetched unauthenticated.
+curl -s https://curlrae.perinion-chan.com/whoami
 ```
 </details>
 
