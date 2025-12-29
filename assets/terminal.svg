@@ -1,1 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Terminal Easter Egg">
+  <defs>
+    <!-- Background: dark cyber gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06080b"/>
+      <stop offset="1" stop-color="#0a0f14"/>
+    </linearGradient>
+
+    <!-- Subtle glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Window shadow -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+
+    <!-- Grid pattern (very subtle) -->
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#111827" stroke-width="1" opacity="0.25"/>
+    </pattern>
+
+    <!-- “Neural” lines (subtle) -->
+    <linearGradient id="neural" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.00"/>
+      <stop offset="0.5" stop-color="#0ea5e9" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0.00"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+      .title { font-size: 13px; fill: #9aa4ad; opacity: 0.9; }
+      .prompt { fill: #8b949e; font-size: 14px; }
+      .cmd { fill: #c9d1d9; font-size: 14px; }
+      .comment { fill: #7aa2f7; opacity: 0.85; font-size: 13px; }
+      .out { fill: #9aa4ad; opacity: 0.9; font-size: 13px; }
+      .accent { fill: #22c55e; opacity: 0.75; }
+      .dim { fill: #9aa4ad; opacity: 0.25; }
+      .cursor { fill: #c9d1d9; }
+      @keyframes blink { 0%, 45% { opacity: 1; } 55%, 100% { opacity: 0; } }
+      .blink { animation: blink 1.05s steps(1,end) infinite; }
+    </style>
+  </defs>
+
+  <!-- Outer background -->
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <rect width="1200" height="520" fill="url(#grid)" opacity="0.35"/>
+
+  <!-- Subtle neural strokes -->
+  <path d="M60 120 C220 40, 420 60, 560 140 S880 240, 1140 120" stroke="url(#neural)" stroke-width="2" fill="none"/>
+  <path d="M40 420 C220 300, 420 340, 600 440 S900 520, 1160 420" stroke="url(#neural)" stroke-width="2" fill="none"/>
+
+  <!-- Terminal window -->
+  <g filter="url(#shadow)">
+    <!-- Window body -->
+    <rect x="90" y="70" rx="16" ry="16" width="1020" height="390" fill="#0b1016" stroke="#111827" stroke-width="1.5" opacity="0.98"/>
+    <!-- Title bar -->
+    <rect x="90" y="70" rx="16" ry="16" width="1020" height="46" fill="#0a0f14" stroke="#111827" stroke-width="1.5"/>
+
+    <!-- macOS buttons -->
+    <circle cx="122" cy="93" r="7.5" fill="#ff5f57"/>
+    <circle cx="146" cy="93" r="7.5" fill="#febc2e"/>
+    <circle cx="170" cy="93" r="7.5" fill="#28c840"/>
+
+    <!-- Title -->
+    <text x="600" y="98" text-anchor="middle" class="mono title">rae@nexus:~ — terminal</text>
+
+    <!-- Soft “RAE” glow (atmosphere) -->
+    <text x="1045" y="106" text-anchor="end" class="mono" font-size="14" fill="#22c55e" opacity="0.28" filter="url(#glow)">RAE</text>
+
+    <!-- Terminal content -->
+    <g class="mono">
+      <!-- Line 1 -->
+      <text x="120" y="150" class="prompt">rae@nexus:~$</text>
+      <text x="250" y="150" class="cmd">curl -s https://rae-ayen.com/insight | grep -A3 "integrity"</text>
+      <text x="250" y="174" class="comment"># Fetching wisdom from your domain, searching for integrity</text>
+      <text x="250" y="196" class="out">Building systems with purpose...</text>
+
+      <!-- Line 2 -->
+      <text x="120" y="232" class="prompt">rae@nexus:~$</text>
+      <text x="250" y="232" class="cmd">find /system/mind -type f -name "*.trust" -exec chmod +x {} \;</text>
+      <text x="250" y="256" class="comment"># Finding and activating trust components in the system</text>
+      <text x="250" y="278" class="comment"># Making trust executable — a beautiful metaphor</text>
+
+      <!-- Line 3 -->
+      <text x="120" y="314" class="prompt">rae@nexus:~$</text>
+      <text x="250" y="314" class="cmd">sudo ./forge --continuous-learning --resilience --trust</text>
+      <text x="250" y="338" class="comment"># Running your core values as a program</text>
+
+      <!-- Line 4 -->
+      <text x="120" y="372" class="prompt">rae@nexus:~$</text>
+      <text x="250" y="372" class="cmd">cat /dev/urandom | head -c 32 | openssl enc -base64 | tee ~/.ssh/purpose</text>
+      <text x="250" y="396" class="comment"># Creating meaning from chaos (valid entropy)</text>
+
+      <!-- Line 5 -->
+      <text x="120" y="430" class="prompt">rae@nexus:~$</text>
+      <text x="250" y="430" class="cmd">ssh -q rae@future.local "echo 'Connected to possibility'"</text>
+
+      <!-- Cursor (blinking) -->
+      <rect x="845" y="418" width="9" height="16" class="cursor blink"/>
+    </g>
+  </g>
+</svg>
 
