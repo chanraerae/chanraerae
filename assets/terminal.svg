@@ -106,13 +106,9 @@
       <text x="250" y="458" class="cmd">
       echo "Build with intention, defend with purpose" | sudo tee -a /etc/motd > /dev/null && echo "✓"
       </text>
-      
+
       <!-- Cursor (blinking) -->
       <rect x="845" y="418" width="9" height="16" class="cursor blink"/>
     </g>
   </g>
 </svg>
-
-
-
-
