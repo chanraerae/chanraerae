@@ -22,7 +22,6 @@
 <br>
 
 ```
-bash
 curl.exe --resolve curlrae.perinion-chan.com:443:172.67.166.71 https://curlrae.perinion-chan.com/whoami
 ```
 </details>
