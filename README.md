@@ -19,5 +19,6 @@ as in Rai in Rainbow 🌈
 ```
 bash
 ssh rae@future.local
-</details>
 ```
+</details>
+
