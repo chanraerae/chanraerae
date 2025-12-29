@@ -54,14 +54,15 @@
     <!-- RAE glow -->
     <text x="1045" y="106" text-anchor="end"
       font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace"
-      font-size="14" fill="#22c55e" opacity="0.22" filter="url(#glow)">RAE</text>
-
+      font-size="14" fill="#22c55e" opacity="0.22" filter="url(#glow)">RAE
+      <animate attributeName="opacity" values="0.12;0.28;0.12" dur="2.4s" repeatCount="indefinite"/>
+    </text>
     <!-- Content (all inline styles, no CSS block) -->
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace">
 
       <!-- 1 -->
       <text x="120" y="150" font-size="14" fill="#8b949e">rae@nexus:~$</text>
-      <text x="250" y="150" font-size="14" fill="#c9d1d9">curl -s https://rae-ayen.com/insight | grep -A3 "integrity"</text>
+      <text x="250" y="150" font-size="14" fill="#c9d1d9">curl -s https://pahiwatig.perinion-chan.com/decrypted | grep -A3 "integrity"</text>
       <text x="250" y="174" font-size="13" fill="#7aa2f7" opacity="0.85"># Fetching wisdom from your domain, searching for integrity</text>
       <text x="250" y="196" font-size="13" fill="#9aa4ad" opacity="0.9">Building systems with purpose...</text>
 
@@ -90,7 +91,9 @@
       <text x="250" y="464" font-size="14" fill="#c9d1d9">echo "Build with intention, defend with purpose" | sudo tee -a /etc/motd &gt; /dev/null &amp;&amp; echo "✓"</text>
 
       <!-- Cursor (static, GitHub-safe) -->
-      <rect x="1088" y="452" width="9" height="16" fill="#c9d1d9" opacity="0.9"/>
+      <rect x="1088" y="452" width="9" height="16" fill="#c9d1d9" opacity="0.9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="1s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
 </svg>
