@@ -1,5 +1,5 @@
 # RaeRae
-(as in Rai in Rainbow 🌈) || I identify as an Anomaly, Not a threat. Just difficult to ignore.
+(as in Rai in Rainbow 🌈) || I identify as an Anomaly, not a threat. Just difficult to ignore.
 
 <br>
 
