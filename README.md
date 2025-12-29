@@ -14,5 +14,8 @@ as in Rai in Rainbow 🌈
 <details>
 <summary>🔍 peek behind the terminal</summary>
 
+<br>
+
 ```bash
 ssh rae@future.local
+</details> ```
