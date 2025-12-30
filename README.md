@@ -1,3 +1,14 @@
+<!--
+Hey there! 
+So you're checking out the markdown, huh? I'll take that as a compliment.
+
+It's just an SVG with some computer word salad thrown in... 
+but yeah, you're not gonna find any easter egg hints here.
+
+Want to know how I did the SVG? Hit me up at offcourseitsanaliasofrae@proton.me 
+and we can chat about it.
+-->
+
 # RaeRae
 (as in Rai in Rainbow 🌈) || I identify as an Anomaly, not a threat. Just difficult to ignore.
 
