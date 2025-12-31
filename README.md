@@ -34,6 +34,7 @@ and we can chat about it.
 
 ```
 # Tip: not everything is meant to be fetched unauthenticated.
+# Hint: Some shells lie about what curl is. Use a real terminal.
 curl -s https://curlrae.perinion-chan.com/whoami
 ```
 </details>
