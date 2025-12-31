@@ -18,7 +18,7 @@ but yeah,
           Let **words** guide you.
           Think **in** systems, not fragments.
           Sometimes **one** idea is enough.
-          A straight **line.**
+          A straight **line**.
           
           There are **No** shortcuts.
           **spaces** deceive**.**
