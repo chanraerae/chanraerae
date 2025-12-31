@@ -21,7 +21,7 @@ but yeah,
           A straight **line.**
           
           There are **No** shortcuts.
-          **spaces** deceive.
+          **spaces** deceive**.**
           Only what can **survive** matters.
           Then **Hash** what **remains.**"
           ++++++++++++++++++++++++++++++++++
