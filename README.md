@@ -14,16 +14,26 @@ but yeah,
           `sed -n 'n;p'` // next-line, printed
 
           2.) Wisdom
-          "Put meaning before motion.
-          Let **words** guide you.
-          Think **in** systems, not fragments.
-          Sometimes **one** idea is enough.
-          A straight **line**.
+          headers: 
+          {
+              X marks the threshold.
+              Integrity is measured, not claimed.
+              A Nonce is a moment, not a memory.
+              Intent leaves a trace.  
+          }
+
+          env:passphrase
           
-          There are **No** shortcuts.
-          **spaces** deceive**.**
-          Only what can **survive** matters.
-          Then **Hash** what **remains.**"
+              "Put meaning before motion.
+              Let **words** guide you.
+              Think **in** systems, not fragments.
+              Sometimes **one** idea is enough.
+              A straight **line**.
+              
+              There are **No** shortcuts.
+              **spaces** deceive**.**
+              Only what can **survive** matters.
+              Then **Hash** what **remains.**"
           ++++++++++++++++++++++++++++++++++
     
     If you're here cause you want to know how I did the SVG? 
