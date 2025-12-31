@@ -6,9 +6,14 @@ It's just an SVG with some computer word salad thrown in...
 
 but yeah, 
 
-    If you're here for the easter egg hint
-      here you go 
+    If you're here for the easter egg hint,
+    here you go 
           +++++++++++++++++++++++++++++++++
+          Found the marker? Ace.
+          1.) Instruction 
+          `sed -n 'n;p'` // next-line, printed
+
+          2.) Wisdom
           "Put meaning before motion.
           Let **words** guide you.
           Think **in** systems, not fragments.
